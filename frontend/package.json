@@ -1,0 +1,21 @@
+{
+  "name": "dynamic-dashboard-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "ag-charts-community": "^9.0.0",
+    "ag-charts-react": "^9.0.0",
+    "ag-grid-community": "^31.0.0",
+    "ag-grid-react": "^31.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "scripts": {
+    "start": "npx serve -s build",
+    "dev": "npx vite"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.6.0",
+    "vite": "^5.4.19"
+  }
+}

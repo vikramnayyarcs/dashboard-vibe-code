@@ -1,0 +1,469 @@
+{
+  "teams": [
+    {
+      "name": "Alpha",
+      "projects": [
+        {
+          "name": "Project A1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 85},
+                {"release": "2025-06-15", "coverage": 88}
+              ]
+            },
+            {
+              "type": "API",
+              "history": [
+                {"release": "2025-06-01", "coverage": 70},
+                {"release": "2025-06-15", "coverage": 75}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Project A2",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 60},
+                {"release": "2025-06-15", "coverage": 65}
+              ]
+            },
+            {
+              "type": "E2E",
+              "history": [
+                {"release": "2025-06-01", "coverage": 40},
+                {"release": "2025-06-15", "coverage": 45}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit", "API", "E2E"]
+    },
+    {
+      "name": "Beta",
+      "projects": [
+        {
+          "name": "Project B1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 95},
+                {"release": "2025-06-15", "coverage": 97}
+              ]
+            },
+            {
+              "type": "UI",
+              "history": [
+                {"release": "2025-06-01", "coverage": 80},
+                {"release": "2025-06-15", "coverage": 85}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit", "UI"]
+    },
+    {
+      "name": "Gamma",
+      "projects": [
+        {
+          "name": "Project G1",
+          "testTypes": [
+            {
+              "type": "API",
+              "history": [
+                {"release": "2025-06-01", "coverage": 55},
+                {"release": "2025-06-15", "coverage": 60}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["API"]
+    },
+    {
+      "name": "Delta",
+      "projects": [
+        {
+          "name": "Project D1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 78},
+                {"release": "2025-06-15", "coverage": 80}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit"]
+    },
+    {
+      "name": "Epsilon",
+      "projects": [
+        {
+          "name": "Project E1",
+          "testTypes": [
+            {
+              "type": "API",
+              "history": [
+                {"release": "2025-06-01", "coverage": 85},
+                {"release": "2025-06-15", "coverage": 87}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["API"]
+    },
+    {
+      "name": "Zeta",
+      "projects": [
+        {
+          "name": "Project Z1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 60},
+                {"release": "2025-06-15", "coverage": 65}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit"]
+    },
+    {
+      "name": "Eta",
+      "projects": [
+        {
+          "name": "Project Eta1",
+          "testTypes": [
+            {
+              "type": "E2E",
+              "history": [
+                {"release": "2025-06-01", "coverage": 60},
+                {"release": "2025-06-15", "coverage": 62}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["E2E"]
+    },
+    {
+      "name": "Theta",
+      "projects": [
+        {
+          "name": "Project T1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 70},
+                {"release": "2025-06-15", "coverage": 75}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit"]
+    },
+    {
+      "name": "Iota",
+      "projects": [
+        {
+          "name": "Project I1",
+          "testTypes": [
+            {
+              "type": "API",
+              "history": [
+                {"release": "2025-06-01", "coverage": 50},
+                {"release": "2025-06-15", "coverage": 55}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["API"]
+    },
+    {
+      "name": "Kappa",
+      "projects": [
+        {
+          "name": "Project K1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 80},
+                {"release": "2025-06-15", "coverage": 82}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit"]
+    },
+    {
+      "name": "Lambda",
+      "projects": [
+        {
+          "name": "Project L1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 77},
+                {"release": "2025-06-15", "coverage": 80}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit"]
+    },
+    {
+      "name": "Mu",
+      "projects": [
+        {
+          "name": "Project M1",
+          "testTypes": [
+            {
+              "type": "API",
+              "history": [
+                {"release": "2025-06-01", "coverage": 66},
+                {"release": "2025-06-15", "coverage": 70}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["API"]
+    },
+    {
+      "name": "Nu",
+      "projects": [
+        {
+          "name": "Project N1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 60},
+                {"release": "2025-06-15", "coverage": 65}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit"]
+    },
+    {
+      "name": "Xi",
+      "projects": [
+        {
+          "name": "Project X1",
+          "testTypes": [
+            {
+              "type": "API",
+              "history": [
+                {"release": "2025-06-01", "coverage": 45},
+                {"release": "2025-06-15", "coverage": 50}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["API"]
+    },
+    {
+      "name": "Omicron",
+      "projects": [
+        {
+          "name": "Project O1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 85},
+                {"release": "2025-06-15", "coverage": 88}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit"]
+    },
+    {
+      "name": "Pi",
+      "projects": [
+        {
+          "name": "Project P1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 90},
+                {"release": "2025-06-15", "coverage": 92}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit"]
+    },
+    {
+      "name": "Rho",
+      "projects": [
+        {
+          "name": "Project R1",
+          "testTypes": [
+            {
+              "type": "API",
+              "history": [
+                {"release": "2025-06-01", "coverage": 55},
+                {"release": "2025-06-15", "coverage": 60}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["API"]
+    },
+    {
+      "name": "Sigma",
+      "projects": [
+        {
+          "name": "Project S1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 78},
+                {"release": "2025-06-15", "coverage": 80}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit"]
+    },
+    {
+      "name": "Tau",
+      "projects": [
+        {
+          "name": "Project T1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 90},
+                {"release": "2025-06-15", "coverage": 92}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit"]
+    },
+    {
+      "name": "Upsilon",
+      "projects": [
+        {
+          "name": "Project U1",
+          "testTypes": [
+            {
+              "type": "API",
+              "history": [
+                {"release": "2025-06-01", "coverage": 40},
+                {"release": "2025-06-15", "coverage": 45}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["API"]
+    },
+    {
+      "name": "Phi",
+      "projects": [
+        {
+          "name": "Project Phi1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 88},
+                {"release": "2025-06-15", "coverage": 90}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit"]
+    },
+    {
+      "name": "Chi",
+      "projects": [
+        {
+          "name": "Project C1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 70},
+                {"release": "2025-06-15", "coverage": 75}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit"]
+    },
+    {
+      "name": "Psi",
+      "projects": [
+        {
+          "name": "Project Psi1",
+          "testTypes": [
+            {
+              "type": "API",
+              "history": [
+                {"release": "2025-06-01", "coverage": 50},
+                {"release": "2025-06-15", "coverage": 55}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["API"]
+    },
+    {
+      "name": "Omega",
+      "projects": [
+        {
+          "name": "Project Omg1",
+          "testTypes": [
+            {
+              "type": "Unit",
+              "history": [
+                {"release": "2025-06-01", "coverage": 80},
+                {"release": "2025-06-15", "coverage": 82}
+              ]
+            }
+          ]
+        }
+      ],
+      "supportedTestTypes": ["Unit"]
+    }
+  ]
+}
